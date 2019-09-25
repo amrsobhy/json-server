@@ -19,6 +19,7 @@
     "prepublishOnly": "npm test && npm run build && pkg-ok"
   },
   "dependencies": {
+    "npm-run-all" : "*",
     "body-parser": "^1.19.0",
     "chalk": "^2.4.2",
     "compression": "^1.7.4",
